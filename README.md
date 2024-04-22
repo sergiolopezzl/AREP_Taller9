@@ -1,7 +1,6 @@
 ### Sergio Daniel Lopez Vargas
 
-# AREP_Taller7
-
+# AREP_Taller9
 
 ## Introducción
 En un mundo cada vez más interconectado y digitalizado, la capacidad de desarrollar sistemas inteligentes capaces de comprender y responder a consultas complejas es fundamental. En este contexto, el uso de tecnologías como Lang Chain, Pinecone y OpenAI se vuelve crucial para crear soluciones eficientes en el procesamiento del lenguaje natural y la recuperación de información.
@@ -99,7 +98,7 @@ python 2.py
 **Instrucciones de Ejecución:**
 1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
 2. Configurar la clave de la API de OpenAI en el entorno.
-3. Ejecutar el script `challenge1.py`.
+3. Ejecutar el script `1.py`.
 
 **Resultado Esperado:**
 - Obtención de una respuesta de ChatGPT a partir de la consulta enviada.
@@ -114,7 +113,7 @@ python 2.py
 **Instrucciones de Ejecución:**
 1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
 2. Configurar las claves de API de OpenAI y Pinecone en el entorno.
-3. Ejecutar el script `challenge2.py`.
+3. Ejecutar el script `2.py`.
 
 **Resultado Esperado:**
 - Generación de una respuesta utilizando el modelo RAG para una pregunta dada.
@@ -129,89 +128,12 @@ python 2.py
 **Instrucciones de Ejecución:**
 1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
 2. Configurar las claves de API de OpenAI y Pinecone en el entorno.
-3. Ejecutar el script `challenge3.py`.
+3. Ejecutar el script `3.py`.
 
 **Resultado Esperado:**
 - Obtención de una respuesta utilizando el modelo RAG y Pinecone para una pregunta específica.
 
 ---
-
-En la sección de "Resultados", puedes incluir capturas de pantalla de las respuestas generadas por los scripts o cualquier otro tipo de salida relevante que demuestre el funcionamiento de cada experimento.
-
-Recuerda también incluir cualquier observación importante, como configuraciones adicionales necesarias o problemas conocidos.
-
----
-
-### Experimentos y Resultados
-
-#### Desafío 1: Uso de Lang Chain y OpenAI para enviar y recibir respuestas de ChatGPT
-
-**Descripción del Experimento:**
-- Se utilizó Python junto con Lang Chain y la API de OpenAI para enviar consultas a ChatGPT y obtener respuestas.
-
-**Instrucciones de Ejecución:**
-1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
-2. Configurar la clave de la API de OpenAI en el entorno.
-3. Ejecutar el script `challenge1.py`.
-
-**Resultado Esperado:**
-- Obtención de una respuesta de ChatGPT a partir de la consulta enviada.
-
----
-
-#### Desafío 2: Creación de un RAG utilizando una base de datos vectorial en memoria
-
-**Descripción del Experimento:**
-- Se utilizó Lang Chain para crear un RAG (Retrieve and Generate) utilizando una base de datos vectorial en memoria.
-
-**Instrucciones de Ejecución:**
-1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
-2. Configurar las claves de API de OpenAI y Pinecone en el entorno.
-3. Ejecutar el script `challenge2.py`.
-
-**Resultado Esperado:**
-- Generación de una respuesta utilizando el modelo RAG para una pregunta dada.
-
----
-
-#### Desafío 3: Creación de un RAG utilizando Pinecone
-
-**Descripción del Experimento:**
-- Se utilizó Lang Chain junto con Pinecone para crear un RAG (Retrieve and Generate) para responder preguntas utilizando un vectorstore en Pinecone.
-
-**Instrucciones de Ejecución:**
-1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
-2. Configurar las claves de API de OpenAI y Pinecone en el entorno.
-3. Ejecutar el script `challenge3.py`.
-
-**Resultado Esperado:**
-- Obtención de una respuesta utilizando el modelo RAG y Pinecone para una pregunta específica.
-
----
-
-#### Desafío 4 (Opcional): Creación de un RAG para comprensión de código
-
-**Descripción del Experimento:**
-- Se utilizó Lang Chain para crear un RAG que pueda comprender código y responder preguntas relacionadas.
-
-**Instrucciones de Ejecución:**
-1. Instalar las dependencias utilizando `pip install -r requirements.txt`.
-2. Configurar las claves de API de OpenAI en el entorno.
-3. Ejecutar el script `challenge4.py` (Opcional).
-
-**Resultado Esperado:**
-- Generación de respuestas comprensivas a preguntas sobre código utilizando el modelo RAG.
-
----
-
-En la sección de "Resultados", puedes incluir capturas de pantalla de las respuestas generadas por los scripts o cualquier otro tipo de salida relevante que demuestre el funcionamiento de cada experimento.
-
-Recuerda también incluir cualquier observación importante, como configuraciones adicionales necesarias o problemas conocidos.
-
----
-
-¿Te gustaría agregar más detalles o ajustar algo en la descripción de los experimentos y resultados?
-
 
 # Imagenes
 ### Login 1
