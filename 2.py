@@ -45,6 +45,6 @@ rag_chain = (
     | StrOutputParser()
 )
 
-response = rag_chain.invoke("What is Task Decomposition?")
+response = rag_chain.invoke("What is Approximate Nearest Neighbors Oh Yeah")
 
 print(response)
